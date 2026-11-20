@@ -1,0 +1,6 @@
+# dsh-flowkiln test patch: append the local plugin to the headless profile.
+# Load with: dsh headless --patch ./flowkiln.patch.yml "<prompt>"
+# Plugin entry is referenced by file:// URL pointing at index.js (verified format).
+- insert:
+    - id: dsh-flowkiln
+      name: 'file:///D:/MyKnowledge/2026-11-18-10-53-37/dsh-flowkiln/index.js'

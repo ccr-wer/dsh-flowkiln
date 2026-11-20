@@ -1,0 +1,24 @@
+{
+  "name": "dsh-flowkiln",
+  "version": "0.1.0",
+  "description": "Mine repeated DSH prompts into reviewable SKILL.md drafts - offline clustering, in-chat human review, never auto-installed.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "selftest": "node bin/selftest.js"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "agent-skills",
+    "workflow-mining",
+    "skill-creator"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

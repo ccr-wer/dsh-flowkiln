@@ -1,0 +1,21 @@
+# 测试运行产物（含原始提示词/会话记录，绝不入库）
+run-log*.txt
+.verify-data/
+prompts.jsonl
+candidates.json
+dismissed.json
+
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+
+# 依赖与编辑器
+node_modules/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

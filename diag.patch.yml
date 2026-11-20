@@ -1,0 +1,6 @@
+# Diagnostic patch: flowkiln + tools-registry probe.
+- insert:
+    - id: dsh-flowkiln
+      name: 'file:///D:/MyKnowledge/2026-11-18-10-53-37/dsh-flowkiln/index.js'
+    - id: dsh-tools-diag
+      name: 'file:///D:/MyKnowledge/2026-11-18-10-53-37/dsh-flowkiln/diag.js'
